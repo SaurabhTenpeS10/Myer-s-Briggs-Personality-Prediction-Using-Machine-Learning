@@ -1,6 +1,5 @@
 # Myer-s-Briggs-Personality-Prediction-Using-Machine-Learning
 
-# Myers-Briggs Personality Prediction using Machine Learning
 
 ## Overview
 This project aims to predict Myers-Briggs personality types using machine learning. The Myers-Briggs Type Indicator (MBTI) is a popular psychological tool that categorizes individuals into 16 distinct personality types based on four dichotomies: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving.
