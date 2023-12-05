@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .required::before {
+        font-size: x-large;
+      content: '*';
+      color: red;
+      margin-right: 2px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center">Question Answers</h1>
+  <div class="d-flex justify-content-center">
+  <form class="shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 70%;">
+    <!-- Question 1 -->
+    <div class="mb-3" >
+      <label for="question1" class="form-label required">Question 1: What are the values that matter most to you in your life?</label>
+      <textarea class="form-control"  id="question1" name="question1" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Integrity, empathy, and continuous learning are my core values. They shape my decisions and interactions with others." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 2: Can you recall a specific moment when your values were challenged? How did you respond?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I faced a situation at work where I had to compromise my values for the team's success. I chose honesty and communicated my concerns, leading to a better solution." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 3: Describe an achievement that you are genuinely proud of. What did it teach you about yourself?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content=" Completing a marathon was a significant achievement. It taught me the power of perseverance and the importance of setting and achieving personal goals." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 4: Reflect on a time when you had to resolve a conflict with someone. How did you approach the situation?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I had a disagreement with a friend. I approached them calmly, actively listened to their perspective, and found a middle ground through compromise and understanding." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 5: How do you handle uncertainty and change in your life?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I embrace change as an opportunity for growth. Uncertainty motivates me to adapt, learn new skills, and explore different perspectives." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 6: Share a challenge that taught you resilience. How did you bounce back from it?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content=" I faced a period of unemployment. I stayed positive, kept applying, networked, and eventually found a better job. It taught me the importance of perseverance.
+      " required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 7: Describe a moment when you had to step out of your comfort zone. What did you learn from that experience?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Speaking in public was terrifying, but I did it to overcome my fear. I learned that facing fears can lead to personal growth and increased confidence." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 8: How do you contribute positively to your community or society?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I volunteer at a local food bank, helping those in need. Giving back makes me grateful for what I have and strengthens my sense of empathy." required></textarea>
+    </div>
+
+     <!-- Question 2 -->
+     <div class="mb-3">
+      <label for="question2" class="form-label required">Question 9: Reflect on a mistake you made and what you learned from it?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I misjudged a colleague's intentions and confronted them. It taught me the importance of communication and not jumping to conclusions, fostering better relationships." required></textarea>
+    </div>
+
+     <!-- Question 2 -->
+     <div class="mb-3">
+      <label for="question2" class="form-label required">Question 10: What are your aspirations for the future, and how do your values guide your goals?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content=" I aspire to create a positive impact through environmental activism. My values of environmental stewardship and sustainability drive my goals and actions." required></textarea>
+    </div>
+
+    <!-- Repeat similar structure for questions 3 to 10 -->
+    <div class="d-flex justify-content-center mt-3">
+        <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+      </div>
+  </form>
+</div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js" integrity="sha384-gPw7I+3AVV6zZZJvO9nvNqp0zBye/MWTzwrj/xj0w8UJjXcXLQ/TqF80mikD1TEA" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+  // Enable Bootstrap popovers
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  });
+</script>
+
+</body>
+</html>

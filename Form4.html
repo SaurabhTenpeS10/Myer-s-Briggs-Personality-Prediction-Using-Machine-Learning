@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .required::before {
+        font-size: x-large;
+      content: '*';
+      color: red;
+      margin-right: 2px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center">Question Answers</h1>
+  <div class="d-flex justify-content-center">
+  <form class="shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 70%;">
+    <!-- Question 1 -->
+    <div class="mb-3" >
+      <label for="question1" class="form-label required">Question 1: What subjects do you enjoy the most in school, and why?</label>
+      <textarea class="form-control"  id="question1" name="question1" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I enjoy mathematics because I love solving problems and finding patterns. It challenges my mind in a rewarding way." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 2: How do you prefer to study: individually, in groups, or a combination of both? Why?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I prefer studying individually because it allows me to focus without distractions. I can set my own pace and delve deep into the topics." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 3: Are you more inclined towards practical subjects like science and technology, or do you enjoy creative subjects like arts and literature? Why?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content=" I enjoy creative subjects like arts and literature because they allow me to express my ideas and emotions. I find inspiration in creativity." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 4: Do you participate in any extracurricular activities or clubs? If yes, which ones, and what do you enjoy about them?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Yes, I am part of the debate club. I enjoy debating because it sharpens my argumentative skills and helps me see different perspectives." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 5: How do you handle challenging subjects or topics in school?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I break down complex topics into smaller parts and tackle them one by one. I seek help from teachers or classmates if I need further clarification." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 6: Do you prefer hands-on learning experiences, such as experiments and projects, or theoretical learning through textbooks and lectures? Why?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I prefer hands-on learning experiences because they make the concepts more tangible and easier to understand. I learn best through practical application." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 7: Are you more comfortable with traditional teaching methods, online learning, or a blend of both?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I prefer a blend of both traditional teaching methods and online learning. Traditional methods provide structure, while online resources offer flexibility and diverse perspectives." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 8: How do you approach group projects or collaborative assignments in school?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I actively contribute to group projects by sharing my ideas and collaborating with team members. I believe in effective communication and equal participation." required></textarea>
+    </div>
+
+        <!-- Question 2 -->
+        <div class="mb-3">
+          <label for="question2" class="form-label required">Question 9: Do you enjoy researching and exploring new topics beyond the school curriculum? If yes, what topics are you currently interested in?</label>
+          <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Yes, I enjoy researching topics related to space exploration. I find astronomy fascinating, and I love learning about the universe beyond our planet." required></textarea>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="mb-3">
+          <label for="question2" class="form-label required">Question 10: How do you manage your time between academics and other activities to maintain a balance?</label>
+          <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I create a schedule that includes dedicated study time and time for extracurricular activities. Time management helps me balance my academic and personal interests effectively." required></textarea>
+        </div>
+
+    <!-- Repeat similar structure for questions 3 to 10 -->
+    <div class="d-flex justify-content-center mt-3">
+        <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+      </div>
+  </form>
+</div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js" integrity="sha384-gPw7I+3AVV6zZZJvO9nvNqp0zBye/MWTzwrj/xj0w8UJjXcXLQ/TqF80mikD1TEA" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+  // Enable Bootstrap popovers
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  });
+</script>
+
+</body>
+</html>

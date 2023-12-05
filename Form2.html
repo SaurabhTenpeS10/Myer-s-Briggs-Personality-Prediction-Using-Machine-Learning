@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .required::before {
+        font-size: x-large;
+      content: '*';
+      color: red;
+      margin-right: 2px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h1 class="text-center">Question Answers</h1>
+  <div class="d-flex justify-content-center">
+  <form class="shadow p-3 mb-5 bg-body-tertiary rounded " style="width: 70%;">
+    <!-- Question 1 -->
+    <div class="mb-3" >
+      <label for="question1" class="form-label required">Question 1:  What are your hobbies or activities that bring you joy?</label>
+      <textarea class="form-control"  id="question1" name="question1" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I enjoy painting and playing the guitar; they help me relax and express my creativity." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 2: Can you share a personal challenge you've faced recently and how you dealt with it?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content=" I struggled with time management, so I created a schedule and prioritized my tasks to overcome it." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 3: Describe a goal you're working towards. What steps are you taking to achieve it?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="My goal is to improve my grades. I attend study groups, review my notes, and ask questions in class." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 4: Is there a particular skill or talent you want to develop? Why is it important to you?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I want to learn programming because it opens up opportunities in the tech industry, which I'm passionate about." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 5: Reflect on a moment when you felt a strong sense of accomplishment. What led to that feeling?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Winning a debate competition made me feel accomplished. Preparation, research, and teamwork contributed to our success." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 6: What are your favorite subjects or topics to learn about? Why do they captivate your interest?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I love history because it teaches us valuable lessons from the past, helping us understand the present and shape the future." required></textarea>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-3">
+      <label for="question2" class="form-label required">Question 7: Share a story about a person who inspires you and the qualities you admire in them.</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="My science teacher inspires me with her passion for teaching and knowledge. Her dedication motivates me to excel in my studies." required></textarea>
+    </div>
+
+     <!-- Question 2 -->
+     <div class="mb-3">
+      <label for="question2" class="form-label required">Question 8: Are there any community or social issues you feel strongly about? Why are these causes important to you?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="I care deeply about environmental conservation. Preserving nature ensures a sustainable future for generations to come." required></textarea>
+    </div>
+
+     <!-- Question 2 -->
+     <div class="mb-3">
+      <label for="question2" class="form-label required">Question 9: Reflect on a time when you faced a setback. How did you bounce back and what did you learn from the experience?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Failing a test was disheartening, but I used it as motivation to study harder. I learned the importance of consistent effort." required></textarea>
+    </div>
+
+     <!-- Question 2 -->
+     <div class="mb-3">
+      <label for="question2" class="form-label required">Question 10: What do you hope to achieve in the next year, both academically and personally?</label>
+      <textarea class="form-control"  id="question2" name="question2" rows="3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="focus" title="Expected Answer" data-bs-content="Academically, I aim to maintain high grades. Personally, I want to improve my communication skills and make new friends." required></textarea>
+    </div>
+
+    <!-- Repeat similar structure for questions 3 to 10 -->
+    <div class="d-flex justify-content-center mt-3">
+        <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+      </div>
+  </form>
+</div>
+</div>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js" integrity="sha384-gPw7I+3AVV6zZZJvO9nvNqp0zBye/MWTzwrj/xj0w8UJjXcXLQ/TqF80mikD1TEA" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+  // Enable Bootstrap popovers
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  });
+</script>
+
+</body>
+</html>
